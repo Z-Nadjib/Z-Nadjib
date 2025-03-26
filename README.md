@@ -1,16 +1,144 @@
-## Hi there 👋
 
+<a href="Image1.giff">
+  <img src="Image2.gif" alt="Fallout GIF" style="width:auto; height:auto"/>
+</a>
+<br>
+
+
+
+
+<div style="text-align:left; font-size: 26px; margin-bottom: 10px;margin-top: 10px;">💫 About Me</div>
+
+---
+<br>
+
+<div style="text-align:left; font-size: 20px; margin-bottom: 13px;"> 🚀 Me? I don’t know!… Just an AI Engineer building smart machines—ironically still trying to understand humans. 🤖🤯 </div>
+
+<div style="text-align:left; font-size: 20px; margin-bottom: 12px;"> 🌟 What I Do : </div>
+
+<div style="display: flex; justify-content: space-between; gap: 2%;margin-left: 6% ;margin-right: 12%;margin-bottom: 0%;">
+  <div style="text-align:left; font-size: 15px; margin-bottom: 10px; margin-top: 30px;">
+    <img src="MachineLearning.png" alt="Fallout GIF" style="width:auto; height:auto; border-radius: 40px;"/>
+  </div>
+  <div style="text-align:left; font-size: 15px; margin-bottom: 10px; margin-top: 30px;">
+    <img src="ComputerVision-removebg.png" alt="Fallout GIF" style="width:auto; height:auto; border-radius: 40px;"/>
+  </div>
+  <div style="text-align:left; font-size: 15px; margin-bottom: 10px; margin-top: 30px;">
+    <img src="DeepLearning.png" alt="Fallout GIF" style="width:auto; height:auto; border-radius: 40px;"/>
+  </div>
+</div>
+<div style="display: flex; justify-content: space-between; gap: 3%;margin-left: 20% ;margin-right: 26%;margin-bottom: 2%;">
+  <div style="text-align:left; font-size: 15px; margin-bottom: 10px; margin-top: 10px;">
+    <img src="NLP.png" alt="Fallout GIF" style="width:auto; height:auto; border-radius: 40px;"/>
+  </div>
+  <div style="text-align:left; font-size: 15px; margin-bottom: 10px; margin-top: 10px;">
+    <img src="DataScience.png" alt="Fallout GIF" style="width:auto; height:auto; border-radius: 40px;"/>
+  </div>
+</div>
+
+---
+
+<div style="text-align:left; font-size: 30px; margin-bottom: 20px;margin-top: 10px;">🧰 Languages and Tools
+</div>
+
+---
+<br>
+<div style="display: flex; justify-content: center; gap: 5%; font-size: 20px; margin-bottom: 30px;">
+  <img align="left" alt="Spring" width="55px" style="padding-right:10px;" src="python.svg" />
+  <img align="left" alt="Java" width="55px" style="padding-right:10px;" src="java.svg"/>
+  <img align="left" alt="C++" width="55px" style="padding-right:10px;" src="C.svg" />
+  <img align="left" alt="JavaScript" width="55px" style="padding-right:10px;" src="php.png" />
+  <img align="left" alt="JavaScript" width="55px" style="padding-right:10px;" src="JavaScript.png" />
+  <img align="left" alt="HTML" width="55px" style="padding-right:10px;" src="html.svg" />
+  <img align="left" alt="CSS" width="55px" style="padding-right:10px;" src="css.svg" />
+</div>
+<div style="display: flex; justify-content: center; gap: 6%; font-size: 20px; margin-bottom: 30px;margin-left: 5%;">
+  <img align="left" alt="Spring" width="55px" style="padding-right:10px;" src="torch.svg" />
+  <img align="left" alt="Java" width="55px" style="padding-right:10px;" src="keras.svg"/>
+  <img align="left" alt="C++" width="55px" style="padding-right:10px;" src="tf.svg" />
+  <img align="left" alt="JavaScript" width="90px" style="padding-right:10px;" src="Scikitlearn.jpg" />
+  <img align="left" alt="JavaScript" width="55px" style="padding-right:10px;" src="numpy.svg" />
+  <img align="left" alt="HTML" width="55px" style="padding-right:10px;" src="cv.svg" />
+  <img align="left" alt="CSS" width="55px" style="padding-right:10px;" src="pandas.svg" />
+  <img align="left" alt="CSS" width="55px" style="padding-right:10px;" src="seaborn.png" />
+</div>
+<div style="display: flex; justify-content: center; gap: 6%; font-size: 20px; margin-bottom: 30px;margin-left: 0%;">
+  <img align="left" alt="Spring" width="55px" style="padding-right:10px;" src="laravell.png" />
+  <img align="left" alt="Java" width="55px" style="padding-right:10px;" src="QT.png"/>
+  <img align="left" alt="C++" width="60px" style="padding-right:10px;" src="git.svg" />
+  <img align="left" alt="JavaScript" width="57px" style="padding-right:10px;" src="github.png" />
+  <img align="left" alt="JavaScript" width="60px" style="padding-right:10px;" src="bash.svg" />
+</div>
+
+
+
+
+---
+
+<div style="text-align:left; font-size: 30px; margin-bottom: 20px;margin-top: 10px;">📚 My Scientific Research Articles
+</div>
+
+---
+
+
+<div style="margin: 30px 0; text-align: center;">
+  <ul style="list-style-type: none; padding: 0;">
+    <li style="font-size: 18px; margin-bottom: 10px;">
+      <a href="https://link-to-article-1.com" target="_blank" style="text-decoration: none; color: #0073e6;">
+        <strong>Title of Article 1</strong> – A brief description of the article or the field it addresses.
+      </a>
+    </li>
+    <li style="font-size: 18px; margin-bottom: 10px;">
+      <a href="https://link-to-article-2.com" target="_blank" style="text-decoration: none; color: #0073e6;">
+        <strong>Title of Article 2</strong> – Another brief description of the article or its significance.
+      </a>
+    </li>
+    <li style="font-size: 18px; margin-bottom: 10px;">
+      <a href="https://link-to-article-3.com" target="_blank" style="text-decoration: none; color: #0073e6;">
+        <strong>Title of Article 3</strong> – Description or abstract of this research paper.
+      </a>
+    </li>
+  </ul>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+---
+
+<div style="text-align:center; font-size: 30px; margin-bottom: 20px;margin-top: 10px;">🧰 Languages and Tools
+</div>
+
+---
+<!-- BEGIN YOUTUBE-CARDS -->
+[![Java just got faster](https://ytcards.demolab.com/?id=b-sKmiVB4g8&title=Java+just+got+faster&lang=en&timestamp=1742320728&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=226 "Java just got faster")](https://www.youtube.com/watch?v=b-sKmiVB4g8)
+[![Software Engineers are WRONG about AI "taking our jobs"](https://ytcards.demolab.com/?id=4Sj4-kYi0J0&title=Software+Engineers+are+WRONG+about+AI+%22taking+our+jobs%22&lang=en&timestamp=1741789856&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=1682 "Software Engineers are WRONG about AI \"taking our jobs\"")](https://www.youtube.com/watch?v=4Sj4-kYi0J0)
+[![Vibe coders are struggling.](https://ytcards.demolab.com/?id=yIwGl8YK18Y&title=Vibe+coders+are+struggling.&lang=en&timestamp=1741703586&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=669 "Vibe coders are struggling.")](https://www.youtube.com/watch?v=yIwGl8YK18Y)
+[![Building My DREAM Home Office Ep. 1 // It's Just Sticks Right Now](https://ytcards.demolab.com/?id=T1hWCaC_N0Y&title=Building+My+DREAM+Home+Office+Ep.+1+%2F%2F+It%27s+Just+Sticks+Right+Now&lang=en&timestamp=1741521629&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=426 "Building My DREAM Home Office Ep. 1 // It's Just Sticks Right Now")](https://www.youtube.com/watch?v=T1hWCaC_N0Y)
+[![I finally got access to Claude Code... i'm not a fan](https://ytcards.demolab.com/?id=W13MloZg03Y&title=I+finally+got+access+to+Claude+Code...+i%27m+not+a+fan&lang=en&timestamp=1741356038&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=1349 "I finally got access to Claude Code... i'm not a fan")](https://www.youtube.com/watch?v=W13MloZg03Y)
+[![Rust is Killing C++](https://ytcards.demolab.com/?id=ZQyrrMqLT2s&title=Rust+is+Killing+C%2B%2B&lang=en&timestamp=1741191302&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=364 "Rust is Killing C++")](https://www.youtube.com/watch?v=ZQyrrMqLT2s)
+<!-- END YOUTUBE-CARDS -->
+
+[<img src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20For%20More-red?style=for-the-badge&logo=video&logoColor=white"/>](https://www.youtube.com/c/fknight?sub_confirmation=1)
+
+#
+
+### 📊 Stats
+
+![Forrest's GitHub stats](https://github-readme-stats.vercel.app/api?username=forrestknight&show_icons=true&theme=gruvbox)
+
+<!-- ![GitHub Streak](https://streak-stats.demolab.com?user=ForrestKnight&theme=gruvbox&border_radius=4.5) -->
+
+#
 <!--
-**Z-Nadjib/Z-Nadjib** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<details>
+ <summary><h3>👨‍💻 Forrest's Coding Journey</h3></summary>
+   I started my coding journey as a naive computer science student with a passion to learn everything I could about this programming world - code, unix, linux, theory. And all the while, teaching myself iOS development with a dream to build my own app, but that soon got overshadowed by my desire to excel in Java. A desire that landed me a full-stack software engineering job upon graduation. However, I had another desire I had been pursuing throughout this time - YouTube content creation. I eventually ended up quitting my software engineering job to pursue YouTube full-time, and that has been my focus ever since. But there's something that's always bothered me about my journey - abandoning my dream of building my own app to pursue the safe route, a job. Now I've already taken the leap away from that safety net into this uncomfortable, unexplored world that it being a creator. And it worked out, but again, it became comfortable. It's easier to create a video than go out on a ledge and build my own product. I do have to eat, at the end of the day, but I think it's time. It's time to get uncomfortable again. I have a burning desire to get back on the horse, and fulfill that dream younger me had of building my own app, my own product. And in order to do that, I'll be implmementing a few measures to streamline my YouTube content to focus more time on fulfilling that dream - a dream that I'll be ready to tackle in 2023 due to the measure I'm putting in place now until the end of 2022. Don't wait up, because I'm coming.
 -->
+[website]: https://fkcodes.com
+[youtube]: https://youtube.com/fknight
