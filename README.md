@@ -17,9 +17,12 @@
 <div style="text-align:left; font-size: 20px; margin-bottom: 12px;"> 🌟 What I Do : </div>
 
 <div style="display: flex; justify-content: space-between; gap: 2%;margin-left: 6% ;margin-right: 12%;margin-bottom: 0%;">
-  <div style="text-align:left; font-size: 15px; margin-bottom: 10px; margin-top: 30px;">
-    <img src="Src\MachineLearning.png" alt="Fallout GIF" style="width:auto; height:auto; border-radius: 40px;"/>
-  </div>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="Src/MachineLearning.png" style="width: 100px; height: auto;" />
+  <img src="Src/ComputerVision.png" style="width: 100px; height: auto;" />
+  <img src="Src/DeepLearning.png" style="width: 100px; height: auto;" />
+</div>
+
   <div style="text-align:left; font-size: 15px; margin-bottom: 10px; margin-top: 30px;">
     <img src="Src\ComputerVision.png" alt="Fallout GIF" style="width:auto; height:auto; border-radius: 40px;"/>
   </div>
