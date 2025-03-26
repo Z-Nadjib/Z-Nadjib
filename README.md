@@ -16,9 +16,9 @@
 
 <div style="text-align:left; font-size: 20px; margin-bottom: 12px;"> 🌟 What I Do : </div>
 
-<div align="center" style="display: flex; gap: 10px;">
-    <img src="Src\MachineLearning.png" alt="UOM Logo" width="350" style="border-radius: 10px;">
-    <img src="Src\MachineLearning.png" alt="HGS Logo" width="355" style="border-radius: 10px;">
+<div align="center" style="display: flex; gap: 40px;">
+    <img src="Src\téléchargement.png" alt="UOM Logo" width="220" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="Src\téléchargement.png" alt="HGS Logo" width="220" style="border-radius: 10px;"style="margin-right: 40px;">
 </div>
 
 
