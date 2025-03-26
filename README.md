@@ -17,14 +17,14 @@
 <br>
 
 <div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\téléchargement.png" alt="UOM Logo" width="220" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\téléchargement.png" alt="HGS Logo" width="220" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\téléchargement.png" alt="HGS Logo" width="220" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;
+    <img src="Src\ML.png" alt="UOM Logo" width="220" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="Src\CV.png" alt="HGS Logo" width="220" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="Src\DL.png" alt="HGS Logo" width="220" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;
 </div>
 <br>
 <div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\téléchargement.png" alt="UOM Logo" width="220" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\téléchargement.png" alt="HGS Logo" width="220" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;
+    <img src="Src\NLP.png" alt="UOM Logo" width="220" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="Src\DS.png" alt="HGS Logo" width="220" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;
 </div>
 
 
@@ -35,7 +35,10 @@
 
 ---
 <br>
-<div style="display: flex; justify-content: center; gap: 5%; font-size: 20px; margin-bottom: 30px;">
+
+<div align="center" style="display: flex;">
+  <div></div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img align="left" alt="Spring" width="55px" style="padding-right:10px;" src="Src\python.svg" />
   <img align="left" alt="Java" width="55px" style="padding-right:10px;" src="Src\java.svg"/>
   <img align="left" alt="C++" width="55px" style="padding-right:10px;" src="Src\C.svg" />
@@ -44,6 +47,12 @@
   <img align="left" alt="HTML" width="55px" style="padding-right:10px;" src="Src\html.svg" />
   <img align="left" alt="CSS" width="55px" style="padding-right:10px;" src="Src\css.svg" />
 </div>
+
+<br>
+<br>
+<br>
+<br>
+
 <div style="display: flex; justify-content: center; gap: 6%; font-size: 20px; margin-bottom: 30px;margin-left: 5%;">
   <img align="left" alt="Spring" width="55px" style="padding-right:10px;" src="Src\torch.svg" />
   <img align="left" alt="Java" width="55px" style="padding-right:10px;" src="Src\keras.svg"/>
@@ -54,6 +63,12 @@
   <img align="left" alt="CSS" width="55px" style="padding-right:10px;" src="Src\pandas.svg" />
   <img align="left" alt="CSS" width="55px" style="padding-right:10px;" src="Src\seaborn.png" />
 </div>
+
+<br>
+<br>
+<br>
+<br>
+
 <div style="display: flex; justify-content: center; gap: 6%; font-size: 20px; margin-bottom: 30px;margin-left: 0%;">
   <img align="left" alt="Spring" width="55px" style="padding-right:10px;" src="Src\laravell.png" />
   <img align="left" alt="Java" width="55px" style="padding-right:10px;" src="Src\QT.png"/>
@@ -61,6 +76,11 @@
   <img align="left" alt="JavaScript" width="57px" style="padding-right:10px;" src="Src\github.png" />
   <img align="left" alt="JavaScript" width="60px" style="padding-right:10px;" src="Src\bash.svg" />
 </div>
+
+<br>
+<br>
+<br>
+<br>
 
 
 
