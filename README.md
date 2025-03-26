@@ -30,61 +30,41 @@
 
 ---
 
-<div style="text-align:left; font-size: 30px; margin-bottom: 20px;margin-top: 10px;">🧰 Languages and Tools
+### <div style="text-align:left; font-size: 30px; margin-bottom: 20px;margin-top: 10px;">🧰 Languages and Tools
 </div>
 
 ---
 <br>
 
-<div align="center" style="display: flex;">
-  <div></div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img align="left" alt="Spring" width="55px" style="padding-right:10px;" src="Src\python.svg" />
-  <img align="left" alt="Java" width="55px" style="padding-right:10px;" src="Src\java.svg"/>
-  <img align="left" alt="C++" width="55px" style="padding-right:10px;" src="Src\C.svg" />
-  <img align="left" alt="JavaScript" width="55px" style="padding-right:10px;" src="Src\php.png" />
-  <img align="left" alt="JavaScript" width="55px" style="padding-right:10px;" src="Src\JavaScript.png" />
-  <img align="left" alt="HTML" width="55px" style="padding-right:10px;" src="Src\html.svg" />
-  <img align="left" alt="CSS" width="55px" style="padding-right:10px;" src="Src\css.svg" />
+<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="Spring" width="55px" style="padding-right:10px;" src="Src\python.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="Java" width="55px" style="padding-right:10px;" src="Src\java.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="C++" width="55px" style="padding-right:10px;" src="Src\C.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="JavaScript" width="55px" style="padding-right:10px;" src="Src\php.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="JavaScript" width="55px" style="padding-right:10px;" src="Src\JavaScript.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="HTML" width="55px" style="padding-right:10px;" src="Src\html.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="CSS" width="55px" style="padding-right:10px;" src="Src\css.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
-
 <br>
-<br>
-<br>
-<br>
-
-<div style="display: flex; justify-content: center; gap: 6%; font-size: 20px; margin-bottom: 30px;margin-left: 5%;">
-  <img align="left" alt="Spring" width="55px" style="padding-right:10px;" src="Src\torch.svg" />
-  <img align="left" alt="Java" width="55px" style="padding-right:10px;" src="Src\keras.svg"/>
-  <img align="left" alt="C++" width="55px" style="padding-right:10px;" src="Src\tf.svg" />
-  <img align="left" alt="JavaScript" width="90px" style="padding-right:10px;" src="Src\Scikitlearn.jpg" />
-  <img align="left" alt="JavaScript" width="55px" style="padding-right:10px;" src="Src\numpy.svg" />
-  <img align="left" alt="HTML" width="55px" style="padding-right:10px;" src="Src\cv.svg" />
-  <img align="left" alt="CSS" width="55px" style="padding-right:10px;" src="Src\pandas.svg" />
-  <img align="left" alt="CSS" width="55px" style="padding-right:10px;" src="Src\seaborn.png" />
+<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="Spring" width="55px" style="padding-right:10px;" src="Src\torch.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="Java" width="55px" style="padding-right:10px;" src="Src\keras.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="C++" width="55px" style="padding-right:10px;" src="Src\tf.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="JavaScript" width="90px" style="padding-right:10px;" src="Src\Scikitlearn.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="JavaScript" width="55px" style="padding-right:10px;" src="Src\numpy.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="HTML" width="55px" style="padding-right:10px;" src="Src\cv.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="CSS" width="55px" style="padding-right:10px;" src="Src\pandas.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="CSS" width="55px" style="padding-right:10px;" src="Src\seaborn.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
-
 <br>
-<br>
-<br>
-<br>
-
-<div style="display: flex; justify-content: center; gap: 6%; font-size: 20px; margin-bottom: 30px;margin-left: 0%;">
-  <img align="left" alt="Spring" width="55px" style="padding-right:10px;" src="Src\laravell.png" />
-  <img align="left" alt="Java" width="55px" style="padding-right:10px;" src="Src\QT.png"/>
-  <img align="left" alt="C++" width="60px" style="padding-right:10px;" src="Src\git.svg" />
-  <img align="left" alt="JavaScript" width="57px" style="padding-right:10px;" src="Src\github.png" />
-  <img align="left" alt="JavaScript" width="60px" style="padding-right:10px;" src="Src\bash.svg" />
+<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="Spring" width="55px" style="padding-right:10px;" src="Src\laravell.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="Java" width="55px" style="padding-right:10px;" src="Src\QT.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="C++" width="60px" style="padding-right:10px;" src="Src\git.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="JavaScript" width="57px" style="padding-right:10px;" src="Src\github.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="JavaScript" width="60px" style="padding-right:10px;" src="Src\bash.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
-
 <br>
-<br>
-<br>
-<br>
-
-
-
-
 ---
 
 <div style="text-align:left; font-size: 30px; margin-bottom: 20px;margin-top: 10px;">📚 My Scientific Research Articles
