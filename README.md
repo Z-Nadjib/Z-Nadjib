@@ -17,23 +17,13 @@
 <div style="text-align:left; font-size: 20px; margin-bottom: 12px;"> 🌟 What I Do : </div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <div style="text-align:left; font-size: 15px; margin-bottom: 10px; margin-top: 30px;">
     <img src="Src\MachineLearning.png" alt="Fallout GIF" style="width:auto; height:auto; border-radius: 40px;"/>
-  </div>
-  <div style="text-align:left; font-size: 15px; margin-bottom: 10px; margin-top: 30px;">
     <img src="Src\ComputerVision.png" alt="Fallout GIF" style="width:auto; height:auto; border-radius: 40px;"/>
-  </div>
-  <div style="text-align:left; font-size: 15px; margin-bottom: 10px; margin-top: 30px;">
     <img src="Src\DeepLearning.png" alt="Fallout GIF" style="width:auto; height:auto; border-radius: 40px;"/>
-  </div>
 </div>
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <div style="text-align:left; font-size: 15px; margin-bottom: 10px; margin-top: 10px;">
     <img src="Src\NLP.png" alt="Fallout GIF" style="width:auto; height:auto; border-radius: 40px;"/>
-  </div>
-  <div style="text-align:left; font-size: 15px; margin-bottom: 10px; margin-top: 10px;">
     <img src="Src\DataScience.png" alt="Fallout GIF" style="width:auto; height:auto; border-radius: 40px;"/>
-  </div>
 </div>
 
 ---
