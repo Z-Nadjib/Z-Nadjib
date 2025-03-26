@@ -16,10 +16,10 @@
 
 <div style="text-align:left; font-size: 20px; margin-bottom: 12px;"> 🌟 What I Do : </div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-    <img src="Src\MachineLearning.png" alt="Fallout GIF" style="width:200px; height:auto; border-radius: 40px;"/>
-    <img src="Src\ComputerVision.png" alt="Fallout GIF" style="width:200px; height:auto; border-radius: 40px;"/>
-    <img src="Src\DeepLearning.png" alt="Fallout GIF" style="width:200px; height:auto; border-radius: 40px;"/>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;border-radius: 40px;">
+    <img src="Src\MachineLearning.png" alt="Fallout GIF" style="width:300px; height:auto; border-radius: 40px;"/>
+    <img src="Src\ComputerVision.png" alt="Fallout GIF" style="width:300px; height:auto; border-radius: 40px;"/>
+    <img src="Src\DeepLearning.png" alt="Fallout GIF" style="width:300px; height:auto; border-radius: 40px;"/>
 </div>
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
     <img src="Src\NLP.png" alt="Fallout GIF" style="width:auto; height:auto; border-radius: 40px;"/>
