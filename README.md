@@ -7,7 +7,7 @@
 
 
 
-<div style="text-align:left; font-size: 26px; margin-bottom: 10px;margin-top: 10px;">💫 About Me</div>
+### <div style="text-align:left; font-size: 26px; margin-bottom: 10px;margin-top: 10px;">💫 About Me</div>
 
 ---
 <br>
@@ -16,8 +16,14 @@
 
 <div style="text-align:left; font-size: 20px; margin-bottom: 12px;"> 🌟 What I Do : </div>
 
+<div align="center" style="display: flex; gap: 10px;">
+    <img src="Src\MachineLearning.png" alt="UOM Logo" width="350" style="border-radius: 10px;">
+    <img src="Src\MachineLearning.png" alt="HGS Logo" width="355" style="border-radius: 10px;">
+</div>
+
+
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;border-radius: 40px;">
-    <img src="Src\MachineLearning.png" alt="Fallout GIF" style="width:300px; height:auto; border-radius: 40px;"/>
+    <img src="Src\MachineLearning.png" alt="Fallout GIF" style="width:300px; height:auto; border-radius: 10px;">
     <img src="Src\ComputerVision.png" alt="Fallout GIF" style="width:300px; height:auto; border-radius: 40px;"/>
     <img src="Src\DeepLearning.png" alt="Fallout GIF" style="width:300px; height:auto; border-radius: 40px;"/>
 </div>
