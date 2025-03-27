@@ -103,7 +103,7 @@ I'm an AI Engineer passionate about building intelligent systems that push the b
 
 ---
 
-<div style="text-align:center; font-size: 30px; margin-bottom: 20px;margin-top: 10px;">🧰 Languages and Tools
+### <div style="text-align:center; font-size: 30px; margin-bottom: 20px;margin-top: 10px;">📊 Stats
 </div>
 
 ---
