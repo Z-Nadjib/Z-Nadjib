@@ -29,7 +29,7 @@ I'm an AI Engineer passionate about building intelligent systems that push the b
     <img src="Src\NLP.png" alt="UOM Logo" width="240" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="Src\DS.png" alt="HGS Logo" width="240" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;
 </div>
-
+<br>
 
 ---
 
@@ -80,20 +80,20 @@ I'm an AI Engineer passionate about building intelligent systems that push the b
 
 <div align="left" style="display: flex;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="URL1" target="blank">
+    <a href="URL1" target="_blank">
         <img src="Src\ICH.png" alt="UOM Logo" width="380" style="border-radius: 10px;" style="margin-right: 40px;">
     </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="URL2" target="blank">
+    <a href="URL2" target="_blank">
         <img src="Src\BANK.png" alt="HGS Logo" width="380" style="border-radius: 10px;" style="margin-right: 40px;">
     </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 <br>
 <div align="left" style="display: flex;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="URL3" target="blank">
+    <a href="[URL3](https://doi.org/10.48550/arXiv.2503.15023)" target="_blank">
         <img src="Src\PAIS.png" alt="UOM Logo" width="380" style="border-radius: 10px;" style="margin-right: 40px;">
     </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="URL4" target="blank">
+    <a href="[URL4](http://doi.org/10.48550/arXiv.2407.13608)" target="_blank">
         <img src="Src\NADI.png" alt="HGS Logo" width="380" style="border-radius: 10px;" style="margin-right: 40px;">
     </a>&nbsp;&nbsp;&nbsp;
 </div>
