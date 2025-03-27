@@ -76,12 +76,12 @@ I'm an AI Engineer passionate about building intelligent systems that push the b
 
 ---
 
-<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="Src\ICH.png" alt="UOM Logo" width="380" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="Src\BANK.png" alt="HGS Logo" width="380" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 <br>
-<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="Src\PAIS.png" alt="UOM Logo" width="380" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="Src\NADI.png" alt="HGS Logo" width="380" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;
 </div>
