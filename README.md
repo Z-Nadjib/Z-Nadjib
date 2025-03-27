@@ -108,3 +108,7 @@ I'm an AI Engineer passionate about building intelligent systems that push the b
 
 ---
 
+<br>
+
+[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=200208)](https://github.com/anuraghazra/github-readme-stats)
+
