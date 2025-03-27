@@ -151,6 +151,8 @@ I'm an AI Engineer passionate about building intelligent systems that push the b
 
 <br>
 
+---
+
 <img src="Src\end.gif" alt="Fallout GIF" style="width:auto; height:auto"/>
 <br>
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" height=0.4/>
