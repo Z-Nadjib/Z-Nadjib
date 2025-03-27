@@ -68,41 +68,25 @@ I'm an AI Engineer passionate about building intelligent systems that push the b
   <img alt="JavaScript" width="60px" style="padding-right:10px;" src="Src\bash.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 <br>
+
 ---
 
-<div style="text-align:left; font-size: 30px; margin-bottom: 20px;margin-top: 10px;">📚 My Scientific Research Articles
+### <div style="text-align:left; font-size: 30px; margin-bottom: 20px;margin-top: 10px;">📚 My Scientific Research Articles
 </div>
 
 ---
 
-
-<div style="margin: 30px 0; text-align: center;">
-  <ul style="list-style-type: none; padding: 0;">
-    <li style="font-size: 18px; margin-bottom: 10px;">
-      <a href="https://link-to-article-1.com" target="_blank" style="text-decoration: none; color: #0073e6;">
-        <strong>Title of Article 1</strong> – A brief description of the article or the field it addresses.
-      </a>
-    </li>
-    <li style="font-size: 18px; margin-bottom: 10px;">
-      <a href="https://link-to-article-2.com" target="_blank" style="text-decoration: none; color: #0073e6;">
-        <strong>Title of Article 2</strong> – Another brief description of the article or its significance.
-      </a>
-    </li>
-    <li style="font-size: 18px; margin-bottom: 10px;">
-      <a href="https://link-to-article-3.com" target="_blank" style="text-decoration: none; color: #0073e6;">
-        <strong>Title of Article 3</strong> – Description or abstract of this research paper.
-      </a>
-    </li>
-  </ul>
+<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="Src\ML.png" alt="UOM Logo" width="240" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="Src\CV.png" alt="HGS Logo" width="240" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+<br>
+<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="Src\NLP.png" alt="UOM Logo" width="240" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="Src\DS.png" alt="HGS Logo" width="240" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;
 </div>
 
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 
 ---
 
