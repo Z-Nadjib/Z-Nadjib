@@ -80,20 +80,20 @@ I'm an AI Engineer passionate about building intelligent systems that push the b
 
 <div align="left" style="display: flex;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="URL1" target="_blank">
+    <a href="URL1" target="blank">
         <img src="Src\ICH.png" alt="UOM Logo" width="380" style="border-radius: 10px;" style="margin-right: 40px;">
     </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="URL2" target="_blank">
+    <a href="URL2" target="blank">
         <img src="Src\BANK.png" alt="HGS Logo" width="380" style="border-radius: 10px;" style="margin-right: 40px;">
     </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 <br>
 <div align="left" style="display: flex;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="URL3" target="_blank">
+    <a href="URL3" target="blank">
         <img src="Src\PAIS.png" alt="UOM Logo" width="380" style="border-radius: 10px;" style="margin-right: 40px;">
     </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="URL4" target="_blank">
+    <a href="URL4" target="blank">
         <img src="Src\NADI.png" alt="HGS Logo" width="380" style="border-radius: 10px;" style="margin-right: 40px;">
     </a>&nbsp;&nbsp;&nbsp;
 </div>
