@@ -76,14 +76,26 @@ I'm an AI Engineer passionate about building intelligent systems that push the b
 
 ---
 
-<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\ICH.png" alt="UOM Logo" width="380" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\BANK.png" alt="HGS Logo" width="380" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+
+<div align="left" style="display: flex;">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="URL1" target="_blank">
+        <img src="Src\ICH.png" alt="UOM Logo" width="380" style="border-radius: 10px;" style="margin-right: 40px;">
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="URL2" target="_blank">
+        <img src="Src\BANK.png" alt="HGS Logo" width="380" style="border-radius: 10px;" style="margin-right: 40px;">
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 <br>
-<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\PAIS.png" alt="UOM Logo" width="380" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\NADI.png" alt="HGS Logo" width="380" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;
+<div align="left" style="display: flex;">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="URL3" target="_blank">
+        <img src="Src\PAIS.png" alt="UOM Logo" width="380" style="border-radius: 10px;" style="margin-right: 40px;">
+    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="URL4" target="_blank">
+        <img src="Src\NADI.png" alt="HGS Logo" width="380" style="border-radius: 10px;" style="margin-right: 40px;">
+    </a>&nbsp;&nbsp;&nbsp;
 </div>
 
 <br>
@@ -94,6 +106,7 @@ I'm an AI Engineer passionate about building intelligent systems that push the b
 </div>
 
 ---
+
 <!-- BEGIN YOUTUBE-CARDS -->
 [![Java just got faster](https://ytcards.demolab.com/?id=b-sKmiVB4g8&title=Java+just+got+faster&lang=en&timestamp=1742320728&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=226 "Java just got faster")](https://www.youtube.com/watch?v=b-sKmiVB4g8)
 [![Software Engineers are WRONG about AI "taking our jobs"](https://ytcards.demolab.com/?id=4Sj4-kYi0J0&title=Software+Engineers+are+WRONG+about+AI+%22taking+our+jobs%22&lang=en&timestamp=1741789856&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=1682 "Software Engineers are WRONG about AI \"taking our jobs\"")](https://www.youtube.com/watch?v=4Sj4-kYi0J0)
