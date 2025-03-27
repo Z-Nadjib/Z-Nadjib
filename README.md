@@ -51,9 +51,9 @@ I'm an AI Engineer passionate about building intelligent systems that push the b
 ---
 <br>
 <div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\ML.png" alt="UOM Logo" width="240" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\CV.png" alt="HGS Logo" width="240" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\DL.png" alt="HGS Logo" width="240" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;
+    <img src="Src\ML.png" alt="UOM Logo" width="240">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="Src\CV.png" alt="HGS Logo" width="240">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="Src\DL.png" alt="HGS Logo" width="240">&nbsp;&nbsp;&nbsp;
 </div>
 <br>
 <div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
