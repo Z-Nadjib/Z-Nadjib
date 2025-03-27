@@ -30,14 +30,17 @@ I'm an AI Engineer passionate about building intelligent systems that push the b
        alt="Followers" 
        title="Follow me on GitHub" 
        src="https://custom-icon-badges.herokuapp.com/github/followers/Z-Nadjib?color=318CE7&labelColor=505050&style=for-the-badge&logo=person-add&label=Followers&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:zahafndjib@gmail.com">
     <img width="43px" 
        alt="Followers" 
        title="Follow me on GitHub" 
        src="Src\GM.png" /></a>
+  <a href="https://www.linkedin.com/in/zahaf-nadjib/">
     <img width="43px" 
        alt="Followers" 
        title="Follow me on GitHub" 
        src="Src\LD.png" /></a>
+  <a href="https://www.researchgate.net/profile/Zahaf-Boualem-Nadjib">
     <img width="43px" 
        alt="Followers" 
        title="Follow me on GitHub" 
