@@ -11,11 +11,14 @@
 
 ---
 
-<div style="text-align:left; font-size: 20px; margin-bottom: 13px;"> 🚀 Me? I don’t know!… Just an AI Engineer building smart machines—ironically still trying to understand humans. 🤖🤯 </div>
+<div style="text-align:left; font-size: 20px; margin-bottom: 13px;"> 🚀 Me? I don’t know!… Just an AI Engineer building smart machines—ironically still trying to understand humans. 🤖🤯 </div> Just Kidding...
+I'm an AI Engineer passionate about building intelligent systems that push the boundaries of what's possible. Whether it's designing advanced neural architectures, optimizing large-scale data pipelines, or exploring AI for real-world applications, I thrive on solving complex problems with cutting-edge tech. Ironically, while I train machines to think, I’m still trying to figure out how humans do it!  When I’m not deep in code, you’ll probably find me optimizing models, automating workflows, or exploring the latest research in AI. Let’s make the future smarter, one algorithm at a time! 🔬
 
-<div style="text-align:left; font-size: 20px; margin-bottom: 12px;"> 🌟 What I Do : </div>
+---
+### <div style="text-align:left; font-size: 26px; margin-bottom: 10px;margin-top: 10px;">🌟 What I Do</div>
+
+---
 <br>
-
 <div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="Src\ML.png" alt="UOM Logo" width="240" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="Src\CV.png" alt="HGS Logo" width="240" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -57,7 +60,7 @@
   <img alt="CSS" width="55px" style="padding-right:10px;" src="Src\seaborn.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 <br>
-<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img alt="Spring" width="55px" style="padding-right:10px;" src="Src\laravell.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img alt="Java" width="55px" style="padding-right:10px;" src="Src\QT.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img alt="C++" width="60px" style="padding-right:10px;" src="Src\git.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
