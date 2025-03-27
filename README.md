@@ -17,7 +17,7 @@ I'm an AI Engineer passionate about building intelligent systems that push the b
 <div align="left">
 <br>
 <a href="https://github.com/Z-Nadjib">
-  <img width="148px" 
+  <img width="162px" 
        src="https://komarev.com/ghpvc/?username=Z-Nadjib&label=Profile%20views&color=318CE7&style=for-the-badge" 
        alt="Profile views" /></a>
 <a href="https://api.github-star-counter.workers.dev/user/Z-Nadjib">
@@ -31,10 +31,9 @@ I'm an AI Engineer passionate about building intelligent systems that push the b
        title="Follow me on GitHub" 
        src="https://custom-icon-badges.herokuapp.com/github/followers/Z-Nadjib?color=318CE7&labelColor=505050&style=for-the-badge&logo=person-add&label=Followers&logoColor=white" /></a>
  </div>
-
+ 
 ---
 ### <div style="text-align:left; font-size: 26px; margin-bottom: 10px;margin-top: 10px;">🌟 What I Do</div>
-
 ---
 <br>
 <div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
