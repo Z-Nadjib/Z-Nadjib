@@ -2,7 +2,6 @@
 <a href="Image1.giff">
   <img src="Src\Image2.gif" alt="Fallout GIF" style="width:auto; height:auto"/>
 </a>
-<br>
 
 
 
