@@ -1,163 +1,69 @@
+<!-- SVGs in assets/ come from assets/build.py; the stats cards from assets/stats.py (refreshed daily) -->
 
-<a href="Image1.giff">
-  <img src="Src\Image2.gif" alt="Fallout GIF" style="width:auto; height:auto"/>
-</a>
-<br> 
+<p align="center">
+  <img src="Src/Image2.gif" width="100%" alt="Pixel-art city: It's Nadjib, welcome"/>
+</p>
 
+<p align="center"><img src="assets/title-about.svg" width="100%" alt="About Me"/></p>
 
+<p align="center">
+  I'm an AI engineer and researcher based in Nancy, France, specialised in <b>RAG, GraphRAG and agentic AI</b>.
+  I design systems where large language models reason over knowledge graphs: retrieval that understands structure,
+  agents that plan and use tools, and LLMs that decide instead of guess. My work spans many domains, from
+  <b>biomedical knowledge graphs</b> at Inria / LORIA and <b>banking fraud detection</b> with GNNs to <b>medical imaging</b>,
+  <b>Arabic NLP</b> and <b>autonomous ROS2 robots</b>, and I take research ideas all the way to working systems.
+</p>
 
+<p align="center"><img src="assets/whoami.svg" width="100%" align="top" alt="whoami: Zahaf Boualem Nadjib, AI Engineer and Researcher in Nancy, France. Skills: RAG, GraphRAG, agentic AI, LLMs, knowledge graphs."/><br/><a href="https://www.linkedin.com/in/zahaf-nadjib/"><img src="assets/contact-linkedin.svg" width="25%" align="top" alt="LinkedIn: in/zahaf-nadjib"/></a><a href="mailto:zahafndjib@gmail.com"><img src="assets/contact-email.svg" width="25%" align="top" alt="Email: zahafndjib@gmail.com"/></a><a href="https://orcid.org/0009-0009-9004-9580"><img src="assets/contact-orcid.svg" width="25%" align="top" alt="ORCID: 0009-0009-9004-9580"/></a><a href="https://www.researchgate.net/profile/Zahaf-Boualem-Nadjib"><img src="assets/contact-researchgate.svg" width="25%" align="top" alt="ResearchGate: Zahaf-Boualem-Nadjib"/></a></p>
 
-### <div style="text-align:left; font-size: 26px; margin-bottom: 10px;margin-top: 10px;">💫 About Me</div>
+<br/>
 
----
+<p align="center"><img src="assets/title-research.svg" width="100%" alt="Research"/></p>
 
-<div style="text-align:left; font-size: 20px; margin-bottom: 13px;"> 🚀 Me? I don’t know!… Just an AI Engineer building smart machines—ironically still trying to understand humans. 🤖🤯 </div> Just Kidding...
-I'm an AI Engineer passionate about building intelligent systems that push the boundaries of what's possible. Whether it's designing advanced neural architectures, optimizing large-scale data pipelines, or exploring AI for real-world applications, I thrive on solving complex problems with cutting-edge tech. Ironically, while I train machines to think, I’m still trying to figure out how humans do it!  When I’m not deep in code, you’ll probably find me optimizing models, automating workflows, or exploring the latest research in AI. Let’s make the future smarter, one algorithm at a time! 🔬
+<p align="center">
+  <a href="https://github.com/Z-Nadjib/EntityAlignment-PGxLOD"><img src="assets/card-pgxlod.svg" width="49%" alt="Entity Alignment on PGxLOD, 2026, Inria / LORIA"/></a>
+  <a href="https://github.com/Z-Nadjib/EntityAlignment-Nexus"><img src="assets/card-nexus.svg" width="49%" alt="EntityAlignment-Nexus, reproducibility study on DBP15K"/></a>
+  <img src="assets/card-rsna.svg" width="49%" alt="Intracranial Hemorrhage Detection, RSNA challenge, paper in progress"/>
+  <a href="https://doi.org/10.18653/v1/2024.arabicnlp-1.84"><img src="assets/card-nadi.svg" width="49%" alt="Arabic Dialect Identification, NADI 2024, 3rd place"/></a>
+  <a href="https://doi.org/10.1109/PAIS66004.2025.11126465"><img src="assets/card-pais.svg" width="49%" alt="Arabic Handwriting Recognition, IEEE PAIS 2025"/></a>
+  <img src="assets/card-fraud.svg" width="49%" alt="Banking Fraud Detection, BEYN e-banking"/>
+</p>
 
-<div align="left">
-<br>
-<a href="https://github.com/Z-Nadjib">
-  <img width="151px" 
-       src="https://komarev.com/ghpvc/?username=Z-Nadjib&label=Profile%20views&color=318CE7&style=for-the-badge" 
-       alt="Profile views" /></a>
-<a href="https://api.github-star-counter.workers.dev/user/Z-Nadjib">
-  <img width="115px" 
-       alt="Total stars" 
-       title="Total stars on GitHub" 
-       src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=318CE7&labelColor=505050&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/Z-Nadjib" /></a>
-<a href="https://github.com/Z-Nadjib?tab=followers">
-  <img width="147px" 
-       alt="Followers" 
-       title="Follow me on GitHub" 
-       src="https://custom-icon-badges.herokuapp.com/github/followers/Z-Nadjib?color=318CE7&labelColor=505050&style=for-the-badge&logo=person-add&label=Followers&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:zahafndjib@gmail.com">
-    <img width="43px" 
-       alt="Followers" 
-       title="Follow me on GitHub" 
-       src="Src\GM.png" /></a>
-  <a href="https://www.linkedin.com/in/zahaf-nadjib/">
-    <img width="43px" 
-       alt="Followers" 
-       title="Follow me on GitHub" 
-       src="Src\LD.png" /></a>
-  <a href="https://www.researchgate.net/profile/Zahaf-Boualem-Nadjib">
-    <img width="43px" 
-       alt="Followers" 
-       title="Follow me on GitHub" 
-       src="Src\RG.png" /></a>
- </div>
+<br/>
 
- 
- 
----
-### <div style="text-align:left; font-size: 26px; margin-bottom: 10px;margin-top: 10px;">🌟 What I Do</div>
----
-<br>
-<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\ML.png" alt="UOM Logo" width="240">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\CV.png" alt="HGS Logo" width="240">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\DL.png" alt="HGS Logo" width="240">&nbsp;&nbsp;&nbsp;
-</div>
-<br>
-<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\NLP.png" alt="UOM Logo" width="240" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="Src\DS.png" alt="HGS Logo" width="240" style="border-radius: 10px;"style="margin-right: 40px;">&nbsp;&nbsp;&nbsp;
-</div>
-<br>
+<p align="center"><img src="assets/title-stack.svg" width="100%" alt="Tech Stack"/></p>
 
----
+<p align="center">
+  <img src="assets/stack-llm.svg" width="49%" alt="LLMs and GenAI: RAG, GraphRAG, Agentic AI, Transformers, Hugging Face, Qwen, Llama, Mistral, LoRA / PEFT, vLLM"/>
+  <img src="assets/stack-kg.svg" width="49%" alt="Knowledge Graphs: RDF / OWL, SPARQL, Linked Open Data, Entity Alignment, Ontology Matching, KG Embeddings"/>
+  <img src="assets/stack-dl.svg" width="49%" alt="Deep Learning: PyTorch, TensorFlow / Keras, R-GCN, GCN, GAT, CNN, ViT, GANs, Autoencoders, scikit-learn, ONNX"/>
+  <img src="assets/stack-eng.svg" width="49%" alt="Robotics and Engineering: ROS2, Visual SLAM, OpenCV, Docker, Linux, GitHub Actions, GitLab CI, C++, Grid'5000"/>
+</p>
 
-### <div style="text-align:left; font-size: 30px; margin-bottom: 20px;margin-top: 10px;">🧰 Languages and Tools
-</div>
+<br/>
 
----
-<br>
+<p align="center"><img src="assets/title-projects.svg" width="100%" alt="Featured Projects"/></p>
 
-<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="Spring" width="55px" style="padding-right:10px;" src="Src\python.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="Java" width="55px" style="padding-right:10px;" src="Src\java.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="C++" width="55px" style="padding-right:10px;" src="Src\C.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="JavaScript" width="55px" style="padding-right:10px;" src="Src\php.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="JavaScript" width="55px" style="padding-right:10px;" src="Src\JavaScript.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="HTML" width="55px" style="padding-right:10px;" src="Src\html.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="CSS" width="55px" style="padding-right:10px;" src="Src\css.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</div>
-<br>
-<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="Spring" width="55px" style="padding-right:10px;" src="Src\torch.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="Java" width="55px" style="padding-right:10px;" src="Src\keras.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="C++" width="55px" style="padding-right:10px;" src="Src\tf.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="JavaScript" width="90px" style="padding-right:10px;" src="Src\Scikitlearn.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="JavaScript" width="55px" style="padding-right:10px;" src="Src\numpy.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="HTML" width="55px" style="padding-right:10px;" src="Src\cv.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="CSS" width="55px" style="padding-right:10px;" src="Src\pandas.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="CSS" width="55px" style="padding-right:10px;" src="Src\seaborn.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</div>
-<br>
-<div align="left" style="display: flex;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="Spring" width="55px" style="padding-right:10px;" src="Src\laravell.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="Java" width="55px" style="padding-right:10px;" src="Src\QT.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="C++" width="60px" style="padding-right:10px;" src="Src\git.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="JavaScript" width="57px" style="padding-right:10px;" src="Src\github.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="JavaScript" width="60px" style="padding-right:10px;" src="Src\bash.svg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</div>
-<br>
+<p align="center">
+  <a href="https://github.com/Z-Nadjib/Autonomous-Driving-End-To-End"><img src="assets/card-drive.svg" width="49%" alt="Autonomous Driving, End to End"/></a>
+  <a href="https://github.com/Z-Nadjib/Pepper-Robot-Library-Assistant"><img src="assets/card-pepper.svg" width="49%" alt="Pepper Library Assistant"/></a>
+  <a href="https://github.com/Z-Nadjib/PACR-Solutions"><img src="assets/card-pacr.svg" width="49%" alt="PACR Solutions"/></a>
+  <a href="https://github.com/Z-Nadjib/Robot-Cartographe-Slam"><img src="assets/card-slam.svg" width="49%" alt="Robot Cartographe SLAM"/></a>
+</p>
 
----
+<br/>
 
-### <div style="text-align:left; font-size: 30px; margin-bottom: 20px;margin-top: 10px;">📚 My Scientific Research Articles
-</div>
+<p align="center"><img src="assets/title-stats.svg" width="100%" alt="GitHub Stats"/></p>
 
----
+<p align="center">
+  <img src="assets/stats-overview.svg" width="100%" alt="GitHub at a glance: contributions, commits, repositories, stars, longest streak, year joined"/>
+  <img src="assets/stats-calendar.svg" width="100%" alt="Contribution calendar of the last year"/>
+  <img src="assets/stats-languages.svg" width="49%" alt="Languages across my repositories"/>
+  <img src="assets/stats-hours.svg" width="49%" alt="When I commit, by hour of the day"/>
+</p>
 
-<br>
+<br/>
 
-<div align="left" style="display: flex;">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="URL1" target="_blank">
-        <img src="Src\ICH.png" alt="UOM Logo" width="380" style="border-radius: 10px; margin-right: 40px;">
-    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="URL2" target="_blank">
-        <img src="Src\BANK.png" alt="HGS Logo" width="380" style="border-radius: 10px; margin-right: 40px;">
-    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</div>
-<br>
-<div align="left" style="display: flex;">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://doi.org/10.48550/arXiv.2503.15023" target="_blank">
-        <img src="Src\PAIS.png" alt="UOM Logo" width="380" style="border-radius: 10px; margin-right: 40px;">
-    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="http://doi.org/10.48550/arXiv.2407.13608" target="_blank">
-        <img src="Src\NADI.png" alt="HGS Logo" width="380" style="border-radius: 10px; margin-right: 40px;">
-    </a>&nbsp;&nbsp;&nbsp;
-</div>
-
-
-<br>
-
----
-
-### <div style="text-align:center; font-size: 30px; margin-bottom: 20px;margin-top: 10px;">📊 Stats
-</div>
-
----
-
-<br>
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![](https://raw.githubusercontent.com/Z-Nadjib/Z-Nadjib/main/profile-summary-card-output/discord_old_blurple/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-<br>
-
-<!--
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![](https://raw.githubusercontent.com/Z-Nadjib/Z-Nadjib/main/profile-summary-card-output/discord_old_blurple/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![](https://raw.githubusercontent.com/Z-Nadjib/Z-Nadjib/main/profile-summary-card-output/discord_old_blurple/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) 
--->
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![](https://raw.githubusercontent.com/Z-Nadjib/Z-Nadjib/main/profile-summary-card-output/discord_old_blurple/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![](https://raw.githubusercontent.com/Z-Nadjib/Z-Nadjib/main/profile-summary-card-output/discord_old_blurple/4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-<br>
-
----
-
-<img src="Src\end.gif" alt="Fallout GIF" style="width:auto; height:auto"/>
-<br>
-<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" height=0.4/>
-
+<p align="center">
+  <img src="Src/end.gif" width="100%" alt="Pixel-art street at night"/>
+</p>

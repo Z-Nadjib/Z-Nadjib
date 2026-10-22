@@ -1,0 +1,41 @@
+name: Stats
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # daily at 03:00 UTC
+  workflow_dispatch:
+  push: # redraw right away when the card styling or the stats code changes
+    branches: [main]
+    paths: [assets/build.py, assets/stats.py]
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install font tooling
+        run: pip install fonttools brotli pillow
+
+      - name: Draw the stats cards
+        run: python3 assets/stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit the cards when they changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats-*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Update stats cards"
+            git push
+          fi
