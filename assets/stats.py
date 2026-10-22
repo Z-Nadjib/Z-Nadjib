@@ -138,7 +138,7 @@ def overview(s):
         (f"{s['longest']}", "longest streak (days)", "rose"),
         (f"{s['since']}", "on GitHub since", "green"),
     ]
-    d = b.Doc(W, H, "GitHub at a glance: " + ", ".join(f"{v} {l}" for v, l, _ in tiles))
+    d = b.Doc(W, H, pad=(b.GUTTER,) * 4, label="GitHub at a glance: " + ", ".join(f"{v} {l}" for v, l, _ in tiles))
     shape, sheen = frame(d, b.ACCENTS["indigo"])
     tw = (W - 40) / len(tiles)
     for k, (value, label, acc) in enumerate(tiles):
@@ -161,7 +161,7 @@ def overview(s):
 def calendar(s):
     W, H = 1200, 320
     days = s["days"]
-    d = b.Doc(W, H, f"Contribution calendar: {s['contrib']} contributions in the last year")
+    d = b.Doc(W, H, pad=(b.GUTTER,) * 4, label=f"Contribution calendar: {s['contrib']} contributions in the last year")
     shape, sheen = frame(d, b.ACCENTS["teal"])
     acc = b.HOT
     d.text(40, 52, "Contribution calendar", "sans", 600, 22, "#fff")
@@ -216,7 +216,7 @@ def calendar(s):
 
 def languages(s):
     W, H = 600, 360
-    d = b.Doc(W, H, "Languages across my repositories: " + ", ".join(f"{l} ({n})" for l, n in s["langs"]))
+    d = b.Doc(W, H, pad=(b.GUTTER,) * 4, label="Languages across my repositories: " + ", ".join(f"{l} ({n})" for l, n in s["langs"]))
     shape, sheen = frame(d, b.ACCENTS["orange"])
     d.text(34, 52, "Languages", "sans", 600, 22, "#fff")
     d.text(W - 34, 52, f"across {s['repo_count']} repositories", "mono", 400, 13, b.HOT, "end")
@@ -241,7 +241,7 @@ def hours(s):
     counts = [s["hours"].get(h, 0) for h in range(24)]
     peak = max(range(24), key=lambda h: counts[h])
     kind = "night owl" if peak >= 20 or peak < 5 else "early bird" if peak < 10 else "daytime coder"
-    d = b.Doc(W, H, f"When I commit, Paris time: busiest hour {peak:02d}:00, {kind}")
+    d = b.Doc(W, H, pad=(b.GUTTER,) * 4, label=f"When I commit, Paris time: busiest hour {peak:02d}:00, {kind}")
     shape, sheen = frame(d, b.ACCENTS["lavender"])
     d.text(34, 52, "When I commit", "sans", 600, 22, "#fff")
     d.text(W - 34, 52, f"{kind} · peak {peak:02d}:00", "mono", 400, 13, b.HOT, "end")

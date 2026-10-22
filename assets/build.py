@@ -22,11 +22,11 @@ OUT = Path(__file__).resolve().parent
 SRC = OUT / "src"
 
 # Dark charcoal grey, lighter than GitHub's dark page so cards stand out; one pastel accent per card.
-BG0 = "#16191D"
-BG1 = "#22262C"
-BG2 = "#2B3037"
-TILE = "#2E333A"
-LINE = "#3D434C"
+BG0 = "#121417"
+BG1 = "#1C1F24"
+BG2 = "#24282E"
+TILE = "#282C32"
+LINE = "#363B43"
 V100 = "#F5F6F8"   # white metal
 V200 = "#DADEE3"   # silver
 V300 = "#C3C8D0"   # silver, for the "normal" parts of an illustration
@@ -37,6 +37,7 @@ MUTED = "#8E95A0"
 # Accent slots, rebound per card by set_accent().
 V500 = V600 = HOT = "#A5B4FC"
 V700 = "#3B3F5C"
+GREEN = "#4ADE80"  # live status: open source, published
 
 ACCENTS = {
     "indigo": "#A5B4FC", "teal": "#5EEAD4", "sky": "#7DD3FC", "rose": "#FDA4AF", "amber": "#FCD34D",
@@ -145,8 +146,9 @@ def e(s):
 
 
 class Doc:
-    def __init__(self, w, h, label):
-        self.w, self.h, self.label = w, h, label
+    def __init__(self, w, h, label, pad=(0, 0, 0, 0)):
+        """pad is transparent space (top, right, bottom, left) around the w x h drawing."""
+        self.w, self.h, self.label, self.pad = w, h, label, pad
         self.parts, self.defs, self.css = [], [], []
         self.chars = {}
 
@@ -164,8 +166,10 @@ class Doc:
 
     def write(self, name):
         faces = "".join(font_face(f, w, c) for (f, w), c in sorted(self.chars.items()))
-        svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{self.w}" height="{self.h}" '
-               f'viewBox="0 0 {self.w} {self.h}" role="img" aria-label="{e(self.label)}">\n'
+        t, r, bt, l = self.pad
+        W, H = self.w + l + r, self.h + t + bt
+        svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
+               f'viewBox="{-l} {-t} {W} {H}" role="img" aria-label="{e(self.label)}">\n'
                f"<title>{e(self.label)}</title>\n<style>{faces}{''.join(self.css)}</style>\n"
                f"<defs>{''.join(self.defs)}</defs>\n" + "\n".join(self.parts) + "\n</svg>\n")
         (OUT / name).write_text(svg, encoding="utf-8")
@@ -213,7 +217,7 @@ def metal(d, shape, w, h, sheen_delay=0.0):
     d.defs.append(
         f'<clipPath id="mclip"><path d="{shape}"/></clipPath>'
         f'<linearGradient id="mbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{BG2}"/>'
-        f'<stop offset="0.5" stop-color="{BG1}"/><stop offset="1" stop-color="#262A30"/></linearGradient>'
+        f'<stop offset="0.5" stop-color="{BG1}"/><stop offset="1" stop-color="#1F2227"/></linearGradient>'
         f'<pattern id="brush" width="{w}" height="3" patternUnits="userSpaceOnUse">'
         f'<rect width="{w}" height="1" fill="#FFFFFF" opacity="0.022"/></pattern>'
         f'<linearGradient id="sheen" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/>'
@@ -259,7 +263,7 @@ def whoami():
     set_accent(ACCENTS["indigo"])
     W, H, T = 1200, 250, 13.0
     d = Doc(W, H, "whoami: Zahaf Boualem Nadjib, AI Engineer and Researcher in Nancy, France. "
-                  "Skills: RAG, GraphRAG, agentic AI, LLMs, knowledge graphs.")
+                  "Skills: RAG, GraphRAG, agentic AI, LLMs, knowledge graphs.", pad=(0, GUTTER, 0, GUTTER))
     shape = rounded(0.5, 0.5, W - 1, H, 18, 18, 0, 0)
     sheen = metal(d, shape, W, H)
     d.defs.append(glow("soft", 4))
@@ -361,7 +365,8 @@ def whoami():
     for i, (key, ic, label, handle, acc) in enumerate(tiles):
         col = ACCENTS[acc]
         first, last = i == 0, i == len(tiles) - 1
-        t = Doc(TW, TH, f"{label}: {handle}")
+        # side gutters on the outer tiles only, so the row lines up with the banner and the cards
+        t = Doc(TW, TH, f"{label}: {handle}", pad=(0, GUTTER if last else 0, 0, GUTTER if first else 0))
         shape = rounded(0.5 if first else 0, 0, TW - (1 if last else 0) - (0.5 if first else 0), TH - 0.5,
                         0, 0, 18 if last else 0, 18 if first else 0)
         sheen = metal(t, shape, TW, TH, sheen_delay=0.4 * i)
@@ -383,16 +388,17 @@ def whoami():
 
 # --------------------------------------------------------------------------- card template
 CW = 600
+GUTTER = 12  # transparent margin on each side; two cards side by side get 2 * GUTTER between them
 
 
 def card(name, H, label, illus, title_, meta=None, desc=None, tags=(), status=None, items=None, design_h=216):
     top = round(H * 0.4)
-    d = Doc(CW, H, label)
+    d = Doc(CW, H, label, pad=(GUTTER,) * 4)
     shape = rounded(0.5, 0.5, CW - 1, H - 1, 22, 22, 22, 22)
     sheen = metal(d, shape, CW, H)
     d.defs.append(
-        f'<linearGradient id="tg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1B1E23"/>'
-        f'<stop offset="0.5" stop-color="#272B31"/><stop offset="1" stop-color="#1A1D22"/></linearGradient>'
+        f'<linearGradient id="tg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17191D"/>'
+        f'<stop offset="0.5" stop-color="#212429"/><stop offset="1" stop-color="#16181C"/></linearGradient>'
         f'<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="{V300}" opacity="0.12"/></pattern>'
         f'<linearGradient id="seam" x1="0" x2="1"><stop offset="0" stop-color="{HOT}" stop-opacity="0"/>'
         f'<stop offset="0.5" stop-color="{HOT}"/><stop offset="1" stop-color="{HOT}" stop-opacity="0"/></linearGradient>'
@@ -440,10 +446,11 @@ def card(name, H, label, illus, title_, meta=None, desc=None, tags=(), status=No
     yb = H - 46
     sw = 0
     if status:
-        txt, lit = status
+        txt, kind = status
+        col = {"live": GREEN, "award": HOT}.get(kind, V400)
         sw = width(txt, "sans", 600, 15) + 22
-        d.add(f'<circle class="pulse" cx="{CW - X - sw + 5:.1f}" cy="{yb + 15}" r="5" fill="{HOT if lit else V400}"/>')
-        d.text(CW - X, yb + 20, txt, "sans", 600, 15, HOT if lit else V300, "end")
+        d.add(f'<circle class="pulse" cx="{CW - X - sw + 5:.1f}" cy="{yb + 15}" r="5" fill="{col}"/>')
+        d.text(CW - X, yb + 20, txt, "sans", 600, 15, V300 if kind is None else col, "end")
     x = X
     for tg in tags:
         w = width(tg, "mono", 400, 13) + 22
@@ -500,10 +507,10 @@ def il_nexus(d, W, H):
 
 def il_rsna(d, W, H):
     cx, cy = 300, H / 2 + 2
-    d.defs.append('<radialGradient id="brain" cx="0.45" cy="0.4" r="0.7"><stop offset="0" stop-color="#4E555F"/>'
-                  '<stop offset="1" stop-color="#22262C"/></radialGradient>')
+    d.defs.append('<radialGradient id="brain" cx="0.45" cy="0.4" r="0.7"><stop offset="0" stop-color="#484E57"/>'
+                  '<stop offset="1" stop-color="#1C1F24"/></radialGradient>')
     for k in range(4):
-        d.add(f'<ellipse cx="{92 + k * 9}" cy="{cy - 18 + k * 12}" rx="34" ry="40" fill="#22262C" stroke="{V400}" stroke-opacity="{0.25 + 0.15 * k:.2f}"/>')
+        d.add(f'<ellipse cx="{92 + k * 9}" cy="{cy - 18 + k * 12}" rx="34" ry="40" fill="#1C1F24" stroke="{V400}" stroke-opacity="{0.25 + 0.15 * k:.2f}"/>')
     d.text(110, H - 14, "~1M CT scans", "mono", 400, 12, MUTED, "middle")
     d.add(f'<ellipse cx="{cx}" cy="{cy}" rx="70" ry="86" fill="none" stroke="{V100}" stroke-width="6" opacity="0.85"/>',
           f'<ellipse cx="{cx}" cy="{cy}" rx="60" ry="76" fill="url(#brain)"/>',
@@ -602,16 +609,16 @@ def il_fraud(d, W, H):
 
 def il_drive(d, W, H):
     vx, vy = W / 2, 34
-    d.add(f'<path d="M{vx - 14},{vy} L{vx + 14},{vy} L{vx + 190},{H} L{vx - 190},{H} Z" fill="#1E2126"/>',
+    d.add(f'<path d="M{vx - 14},{vy} L{vx + 14},{vy} L{vx + 190},{H} L{vx - 190},{H} Z" fill="#1A1D21"/>',
           f'<path d="M{vx - 14},{vy} L{vx - 190},{H} M{vx + 14},{vy} L{vx + 190},{H}" stroke="{V300}" stroke-width="3" stroke-opacity="0.8"/>')
     d.css.append(".lane{stroke-dasharray:14 16;animation:lane .6s linear infinite}@keyframes lane{to{stroke-dashoffset:-30}}")
     d.add(f'<path d="M{vx},{vy} L{vx},{H}" stroke="{HOT}" stroke-width="4" class="lane"/>')
     for k in range(5):
         y = 50 + k * 34
-        d.add(f'<rect x="40" y="{y}" width="{20 + (k * 37) % 50}" height="22" fill="#30353C" opacity="0.8"/>',
-              f'<rect x="{W - 90}" y="{y - 10}" width="{24 + (k * 23) % 40}" height="30" fill="#30353C" opacity="0.8"/>')
+        d.add(f'<rect x="40" y="{y}" width="{20 + (k * 37) % 50}" height="22" fill="#2B2F35" opacity="0.8"/>',
+              f'<rect x="{W - 90}" y="{y - 10}" width="{24 + (k * 23) % 40}" height="30" fill="#2B2F35" opacity="0.8"/>')
     d.add(f'<g><animateTransform attributeName="transform" type="translate" values="-10 0;10 0;-10 0" dur="3s" repeatCount="indefinite"/>'
-          f'<rect x="{vx - 36}" y="{H - 64}" width="72" height="44" rx="10" fill="#3E444D" stroke="{V200}" stroke-width="2"/>'
+          f'<rect x="{vx - 36}" y="{H - 64}" width="72" height="44" rx="10" fill="#383D45" stroke="{V200}" stroke-width="2"/>'
           f'<rect x="{vx - 26}" y="{H - 58}" width="52" height="16" rx="5" fill="{BG0}"/>'
           f'<rect x="{vx - 32}" y="{H - 34}" width="14" height="6" rx="3" fill="{HOT}" filter="url(#gl)"/>'
           f'<rect x="{vx + 18}" y="{H - 34}" width="14" height="6" rx="3" fill="{HOT}" filter="url(#gl)"/></g>')
@@ -634,7 +641,7 @@ def il_pepper(d, W, H):
         d.add(f'<circle cx="{bx + 64 + k * 20}" cy="{by + 27}" r="5" fill="{V200}">'
               f'<animate attributeName="opacity" values="0.2;1;0.2" dur="1.2s" begin="{k * 0.2}s" repeatCount="indefinite"/></circle>')
     d.text(bx + 84, by + 82, "« Bonjour ! »", "mono", 400, 12.5, V300, "middle")
-    d.add(f'<rect x="58" y="52" width="92" height="118" rx="6" fill="#3E444D" stroke="{V300}" stroke-width="2"/>',
+    d.add(f'<rect x="58" y="52" width="92" height="118" rx="6" fill="#383D45" stroke="{V300}" stroke-width="2"/>',
           f'<path d="M70,52 V170" stroke="{V300}" stroke-opacity="0.6"/>')
     for k, (x, y) in enumerate([(92, 80), (126, 92), (104, 120), (132, 140), (88, 150), (118, 66)]):
         d.add(f'<circle cx="{x}" cy="{y}" r="7" fill="none" stroke="{HOT}" stroke-width="1.5" opacity="0">{blink(0.3 * k, 2.6, 3.4)}</circle>')
@@ -649,7 +656,7 @@ def il_pacr(d, W, H):
     for gy in range(1, 9):
         d.add(f'<path d="M12,{gy * cell} H{W - 12}" stroke="{V400}" stroke-opacity="0.08"/>')
     for gx, gy in obstacles:
-        d.add(f'<rect x="{gx * cell + 2}" y="{gy * cell + 2}" width="{cell - 4}" height="{cell - 4}" rx="4" fill="#4A515B"/>')
+        d.add(f'<rect x="{gx * cell + 2}" y="{gy * cell + 2}" width="{cell - 4}" height="{cell - 4}" rx="4" fill="#444A53"/>')
     path = "M60,180 L108,180 L132,156 L204,156 L228,132 L228,84 L252,60 L300,60 L324,84 L372,108 L420,108 L444,84 L492,60 L540,36"
     dur = 5
     d.add(f'<path id="route" d="{path}" fill="none" stroke="{HOT}" stroke-width="3" stroke-linejoin="round" pathLength="1" '
@@ -713,45 +720,45 @@ RESEARCH = [
     ("card-pgxlod", "teal", il_pgxlod, "Entity Alignment on PGxLOD", "2026 · Inria / LORIA",
      "A benchmark of 8 entity-alignment models and a structure-only baseline on a pharmacogenomic "
      "knowledge graph: 6 tasks, leak-free splits, filtered and multi-reference ranking, decision F1.",
-     ["PyTorch", "Knowledge Graphs", "GNNs"], ("Open source", False)),
+     ["PyTorch", "Knowledge Graphs", "GNNs"], ("Open source", "live")),
     ("card-nexus", "sky", il_nexus, "EntityAlignment-Nexus", "Reproducibility · DBP15K",
      "Nine entity-alignment models rebuilt from scratch in PyTorch, with one data layer, one trainer "
      "and paper-versus-repo results for every model.",
-     ["PyTorch", "Entity Alignment"], ("Open source", False)),
+     ["PyTorch", "Entity Alignment"], ("Open source", "live")),
     ("card-rsna", "rose", il_rsna, "Intracranial Hemorrhage Detection", "2024–25 · RSNA challenge",
      "Transformers and explainable AI trained on about one million CT scans to detect and classify "
      "intracranial hemorrhages.",
-     ["ViT", "Medical imaging", "XAI"], ("Paper in progress", False)),
+     ["ViT", "Medical imaging", "XAI"], ("Paper in progress", None)),
     ("card-nadi", "amber", il_nadi, "Arabic Dialect Identification", "2024 · NADI shared task, ArabicNLP",
      "A multi-classifier system that identifies 21 Arabic dialects, ranked 3rd among international "
      "research teams.",
-     ["NLP", "Classification"], ("3rd place", True)),
+     ["NLP", "Classification"], ("3rd place", "award")),
     ("card-pais", "green", il_pais, "Arabic Handwriting Recognition", "2025 · IEEE PAIS",
      "Transformers and CNNs with a new segmentation method and data augmentation for handwritten "
      "Arabic characters.",
-     ["Transformers", "CNNs", "OCR"], ("Published", False)),
+     ["Transformers", "CNNs", "OCR"], ("Published", "live")),
     ("card-fraud", "orange", il_fraud, "Banking Fraud Detection", "2025 · BEYN e-banking",
      "GNNs, autoencoders, GANs and sequence models that flag anomalies in transaction time series.",
-     ["GNNs", "Autoencoders", "GANs"], ("Industry", False)),
+     ["GNNs", "Autoencoders", "GANs"], ("Industry", None)),
 ]
 
 PROJECTS = [
     ("card-drive", "blue", il_drive, "Autonomous Driving, End to End", "ROS2 · PyTorch · ONNX",
      "Behavioral cloning with CNNs and ViTs, from MPC and PID data collection to a real-time "
      "autopilot with a safety switch.",
-     ["ROS2", "ViT", "ONNX"], ("Open source", False)),
+     ["ROS2", "ViT", "ONNX"], ("Open source", "live")),
     ("card-pepper", "pink", il_pepper, "Pepper Library Assistant", "ROS2 · SoftBank Pepper",
      "A library assistant robot with French voice interaction, book cover recognition, A* "
      "navigation and Visual SLAM.",
-     ["ROS2", "SIFT", "SLAM"], ("Open source", False)),
+     ["ROS2", "SIFT", "SLAM"], ("Open source", "live")),
     ("card-pacr", "lime", il_pacr, "PACR Solutions", "ROS2 · planning",
      "Path planning with Pure Pursuit and DWA local planners, and task planning as an MDP solved "
      "by value iteration.",
-     ["A*", "DWA", "MDP"], ("Open source", False)),
+     ["A*", "DWA", "MDP"], ("Open source", "live")),
     ("card-slam", "cyan", il_slam, "Robot Cartographe SLAM", "ESP32 · Python · OpenCV",
      "A hands-on course: a robot maps a room with a laser, ArUco markers and a Kalman filter, then "
      "navigates it alone, in 14 labs.",
-     ["ESP32", "OpenCV", "Kalman"], ("Open source", False)),
+     ["ESP32", "OpenCV", "Kalman"], ("Open source", "live")),
 ]
 
 STACK = [
@@ -766,7 +773,27 @@ STACK = [
 ]
 
 
+# --------------------------------------------------------------------------- closing waves
+def footer_wave():
+    """Three orange waves rolling under the closing GIF, on a transparent background."""
+    W, H = 1200, 126
+
+    def wave(amp, length, base):
+        path = f"M0 {base}"
+        for i in range(2 * (int(2 * W / length) + 2)):
+            x = i * length / 2
+            path += f" Q{x + length / 4:.1f} {base + (amp if i % 2 == 0 else -amp)} {x + length / 2:.1f} {base}"
+        return path + f" V{H} H0 Z"
+
+    d = Doc(W, H, "Orange waves")
+    for amp, length, base, dur, color in [(16, 400, 30, 11, "#FDBA74"), (12, 300, 52, 8, "#FB923C"), (10, 240, 76, 6, "#EA580C")]:
+        d.add(f'<path d="{wave(amp, length, base)}" fill="{color}">'
+              f'<animateTransform attributeName="transform" type="translate" values="0 0;-{length} 0" dur="{dur}s" repeatCount="indefinite"/></path>')
+    d.write("footer-wave.svg")
+
+
 if __name__ == "__main__":
+    footer_wave()
     for key, label in [("about", "About Me"), ("research", "Research"), ("stack", "Tech Stack"),
                        ("projects", "Featured Projects"), ("stats", "GitHub Stats")]:
         title(key, label)
